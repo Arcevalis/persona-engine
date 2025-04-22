@@ -218,8 +218,8 @@ public class RVCFilter : IAudioFilter, IDisposable
             var rvcModel    = await _rvcVoiceProvider.GetVoiceAsync(options.DefaultVoice);
 
             // _f0Predictor = new CrepeOnnx(crepeModel.Path);
-            _f0Predictor = new CrepeOnnxSimd(crepeModel.Path);
-            // _f0Predictor = new ACFMethod(512, 16000);
+            // _f0Predictor = new CrepeOnnxSimd(crepeModel.Path);
+            _f0Predictor = new ACFMethod(512, 16000);
 
             _rvcModel = new OnnxRVC(
                                     rvcModel,

@@ -19,4 +19,7 @@ public class VadSegment
     ///     Gets or sets a value indicating whether this segment is the last one in the audio stream and can be incomplete.
     /// </summary>
     public bool IsIncomplete { get; set; }
+
+    public float[]? Samples { get; set; }      // The audio samples for this segment
+    public int SampleRate { get; set; }
 }

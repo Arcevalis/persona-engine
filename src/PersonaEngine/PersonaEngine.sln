@@ -1,5 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonaEngine.App", "PersonaEngine.App\PersonaEngine.App.csproj", "{83F3CF45-F877-46CB-B933-02E3EA3F1AD3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonaEngine.Lib", "PersonaEngine.Lib\PersonaEngine.Lib.csproj", "{5C05B364-90A4-41AB-A9E3-55292DA34ACD}"
@@ -18,5 +21,11 @@ Global
 		{5C05B364-90A4-41AB-A9E3-55292DA34ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C05B364-90A4-41AB-A9E3-55292DA34ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C05B364-90A4-41AB-A9E3-55292DA34ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA9445A9-C1D1-4507-B666-BE6B407B6922}
 	EndGlobalSection
 EndGlobal

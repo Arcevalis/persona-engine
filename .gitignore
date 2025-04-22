@@ -691,3 +691,4 @@ Cargo.lock
 
 src/PersonaEngine/PersonaEngine.Lib/Resources/*
 !src/PersonaEngine/PersonaEngine.Lib/Resources/.gitkeep 
+src/PersonaEngine/litellmdocker.bat
